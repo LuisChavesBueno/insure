@@ -1,0 +1,601 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+#repositorio{
+    position: fixed;
+    top: 90%;
+    left: 5%;
+    background-color: #800303;
+    font-weight: 700;
+    padding: 12px 60px;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 1s;
+    text-decoration: none;
+}
+
+#repositorio:hover {
+
+    border-radius: 0px 30px 0px 30px;
+}
+
+#repositorio a{
+    color: #fff;
+    font-size: 14pt;
+    text-decoration: none;
+}
+
+header nav #menu{
+    display: none;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px  80px;
+}
+
+header ul{
+    display: flex;
+}
+
+header nav ul li {
+    margin-left:30px;
+    list-style: none;
+}
+
+header nav ul li span a{
+    color: #fff;
+    background-color: black;
+    padding: 14px 30px;
+}
+
+header nav ul li span a:hover{
+    color: #fff;
+  
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #6d6c6c;
+    font-weight: 700;
+}
+
+header nav ul li a:hover{
+    color: black;
+}
+
+
+
+main #inicio{
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    font-family: 'Public Sans', sans-serif;
+}
+
+main #inicio div {
+    background-image: url('img/bg-pattern-intro-right-desktop.png'), url('img/bg-pattern-intro-left-desktop.png');
+    background-position: right top, left bottom;
+    background-size: 350px , 130px;
+    background-repeat: no-repeat, no-repeat;
+    
+    background-color: #2D2641;
+    width: 100%;
+    padding: 60px 80px;
+}
+
+main #inicio div h1{
+    font-size: 40pt;
+    font-weight: 700;
+    margin-top: 50px;
+    max-width: 500px;
+}   
+
+main #inicio div hr{
+    width:200px;
+}
+
+main #inicio div p{
+    font-weight: 400;
+    margin-top: 20px;
+    max-width: 500px;
+
+}
+
+main #inicio img{
+    width: 430px;
+    
+    position: absolute;
+    right: 200px;
+    top: 130px;
+}
+
+main #inicio button{
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 14px 30px;
+    border: none;
+    font-size: 11pt;
+    cursor: pointer;
+}
+
+main #inicio button a{
+    color: black;
+    text-decoration: none;
+}
+
+main #informacoes #diferente{
+    margin: 150px 80px 20px 80px;
+}
+
+main #informacoes #diferente hr{
+    width: 200px;
+}
+
+
+main #informacoes #diferente  h2{
+    margin-top: 50px;
+    font-size: 35pt;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+
+main #informacoes #diferente ul{
+    display: flex;
+    list-style: none;
+}
+
+main #informacoes #diferente ul li{
+    margin-left: 25px;
+}
+
+main #informacoes #diferente ul li h3{
+    margin-top:12px ;
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+main #informacoes #diferente ul li p{
+    color: #757575;
+    margin-top: 5px ;
+}
+
+main #informacoes #panel{
+    background-image: url(img/bg-pattern-how-we-work-mobile.png);
+    background-repeat: no-repeat;
+    background-position: right top ;
+    background-size: 200px;
+    display: flex;
+    background-color: #2D2641;  
+    margin: 120px 200px 80px 200px;
+    padding: 70px 70px;
+}
+
+
+main #informacoes #panel h2{
+    font-size: 30pt;
+    font-weight: 800;
+    max-width: 400px;
+    color: #fff;
+}
+
+main #informacoes #panel button{
+    margin-left: 250px;
+    background-color: transparent;
+    border-color: #fff;
+    height: 40px;
+    width: 200px;
+    font-size: 11pt;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+main #informacoes #panel button a{
+    color: #fff;
+    text-decoration: none;
+}
+
+footer{
+    margin: 0px 80px;
+    margin-top: 150px;
+}
+
+footer #redes-socias{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer #redes-socias #nome-impresa{
+    width: 100px;
+    height: 20px;
+}
+
+footer #redes-socias ul {
+    display: flex;
+    list-style: none;
+}
+
+footer #redes-socias ul li{
+    margin-left: 10px;
+}
+
+footer #redes-socias ul li img{
+    cursor: pointer;
+}
+
+
+footer #redes-socias ul li img:hover{
+    transform: scale(1.1);
+    
+}
+
+
+footer #mais-iformacoes {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+footer #mais-iformacoes  nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+footer #mais-iformacoes  nav ul{
+    list-style: none;
+}
+
+footer #mais-iformacoes  nav ul .titulo{
+    color: #757575;
+    font-size: 10pt;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+footer #mais-iformacoes  nav ul li a{
+    color: black;
+    font-size: 12pt;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+footer #mais-iformacoes  nav ul li{
+    margin-bottom: 10px;
+
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+@media (max-width: 1240px){
+    
+main #inicio img{
+        width: 400px;
+        
+        position: absolute;
+        right: 100px;
+        top: 130px;
+}
+
+main #informacoes #panel button{
+    width: 300px;
+}
+
+main #informacoes #panel{
+    padding: 30px 60px;
+}
+
+
+main #informacoes #panel h2{
+    font-size: 25pt;
+    max-width: 500px;
+    
+}
+
+}
+
+@media (max-width: 1076px){
+    main #inicio img{
+        width: 320px;
+        
+        position: absolute;
+        right: 10px;
+        top: 180px;
+}
+
+main #informacoes #panel button{
+    width: 400px;
+}
+
+main #informacoes #panel{
+    padding: 30px 60px;
+}
+
+
+main #informacoes #panel h2{
+    font-size: 20pt;
+}
+}
+
+@media (max-width: 982px){
+    main #inicio img{
+        width: 350px;
+        
+        position: absolute;
+        right: 10px;
+        top: 130px;
+}
+
+main #inicio div h1{
+    font-size: 30pt;
+    margin-top: 30px;
+    max-width: 400px;
+}   
+
+main #inicio div hr{
+    width:200px;
+}
+
+main #inicio div p{
+    font-weight: 400;
+    margin-top: 10px;
+    max-width: 400px;
+
+}
+
+main #informacoes #panel{
+    background-image: url(img/bg-pattern-how-we-work-mobile.png);
+    background-repeat: no-repeat;
+    background-position: right top ;
+    background-size: 200px;
+    display: flex;
+    background-color: #2D2641;  
+    margin: 110px 100px 80px 100px;
+    padding: 10px 10px;
+}
+
+main #informacoes #panel h2{
+    font-size: 15pt;
+    max-width: 800px;
+}
+
+main #informacoes #panel button{
+    margin-left: 230px;
+    background-color: transparent;
+    border-color: #fff;
+    height: 40px;
+    width: 300px;
+    margin-top: 40px;
+}
+
+main #informacoes #panel{
+    padding: 30px 60px;
+}
+
+
+main #informacoes #panel h2{
+    font-size: 20pt;
+}
+
+
+}
+
+@media (max-width: 840px){
+
+header nav ul{
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    right: 40%;
+    top: 100px;
+    width: 220px;
+    height: 400px;
+    flex-direction: column;
+    background-color: #2D314F;
+    transition: 0.3s;
+    
+}
+
+header nav ul li{
+    text-align: center;
+    margin-top: 60px;
+}
+
+header nav ul li a{
+    color: #fff;
+}
+
+header nav #menu {
+    display: block;
+    cursor: pointer;
+}
+
+main #inicio img{
+        width: 310px;
+        
+        position: absolute;
+        right: 10px;
+        top: 160px;
+}
+
+main #inicio div h1{
+    font-size: 25pt;
+    margin-top: 25px;
+    max-width: 300px;
+}   
+
+main #inicio div p{
+    font-weight: 400;
+    margin-top: 10px;
+    max-width: 350px;
+
+}
+
+main #informacoes #panel h2{
+    font-size: 20pt;
+    max-width: 500px;
+}
+
+main #informacoes #panel button{
+    margin-left: 230px;
+    background-color: transparent;
+    border-color: #fff;
+    height: 40px;
+    width: 400px;
+    margin-top: 40px;
+}
+
+}
+
+/*////////////////////////////////////////////////////////////////////////////////////////////*/
+
+@media (max-width: 754px){
+    header nav img {
+        height: 30px;
+        width: 150px;
+    }
+
+    header nav #menu { 
+        height: 40px;
+        width: 50px;
+    }
+
+    main #inicio {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    main #inicio hr{
+        display: none;
+}
+
+    main #inicio img {
+        width: 500px;
+        position: static;
+    }
+
+main #inicio div {
+    background-image: url('img/bg-pattern-intro-right-desktop.png'), url('img/bg-pattern-intro-left-desktop.png');
+    background-position: right bottom, left top;
+    background-size: 180px , 130px;
+    background-repeat: no-repeat, no-repeat;
+
+    background-color: #2D2641;
+    width: 80%;
+    padding: 60px 80px;
+}
+
+main #inicio div h1{
+    font-size: 30pt;
+    font-weight: 700;
+    margin-top: 50px;
+    max-width: 500px;
+}   
+
+
+main #inicio div p{
+    font-weight: 400;
+    margin-top: 20px;
+    max-width: 500px;
+
+}
+
+main #inicio div button{
+    margin-top: 20px;
+}
+
+main #informacoes #diferente ul{
+    display: flex;
+    flex-direction: column;
+}    
+
+main #informacoes #diferente ul li{
+    margin-top: 40px;
+
+}
+
+main #informacoes #panel{
+    display: flex;
+    flex-direction: column;
+}
+
+main #informacoes #panel button {
+    margin-left: 0px;
+    background-color: transparent;
+    border-color: #fff;
+    height: 40px;
+    width: 200px;
+    font-size: 11pt;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+footer #redes-socias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer #redes-socias ul{
+    margin-top: 20px;
+}
+
+footer #mais-iformacoes  nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+footer #mais-iformacoes  nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+footer #mais-iformacoes  nav ul .titulo{
+    color: #757575;
+    font-size: 10pt;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+footer #mais-iformacoes  nav ul li{
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+}
+
+@media (max-width:434px){
+    main #informacoes #panel{
+        
+        display: flex;
+        background-color: #2D2641;  
+        margin: 100px 0px 80px 20px;
+        padding: 50px 40px;
+    }
+
+    main #informacoes #panel h2{
+        font-size: 30pt;
+        font-weight: 700;
+        max-width: 900px;
+        
+    }
+    
+    main #informacoes #panel button{
+        margin-left: 0px;
+        background-color: transparent;
+        border-color: #fff;
+        height: 40px;
+        width: 200px;
+        margin-top: 40px;
+    }
+}
